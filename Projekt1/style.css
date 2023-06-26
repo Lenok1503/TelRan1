@@ -49,12 +49,15 @@ body {
 }
 /* Content */
 
-.content-container {
-  width: 80%;
-  height: 427px;
-  margin: auto 10% auto 10%;
-  top: 228px;
-  left: 396px;
+.section-container {
+  margin: 0 5% 110px 5%;
+}
+h1 {
+  font-size: 57px;
+  align-items: center;
+}
+.text-container {
+  font-size: 32px;
 }
 .content-button {
   border: none;
@@ -66,13 +69,6 @@ body {
   font-weight: 700;
   font-size: 24px;
   color: #ffffff;
-}
-h1 {
-  font-size: 57px;
-  align-items: center;
-}
-.text-container {
-  font-size: 32px;
 }
 
 /* footer*/
@@ -92,4 +88,16 @@ h1 {
 .socialmedia-container {
   display: flex;
   gap: 40px;
+  align-items: center;
+}
+
+.service-container {
+  margin: 0 7% 200px 7%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 82px 258px;
+}
+
+.single-service-container {
+  max-width: 400px;
 }
